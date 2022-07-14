@@ -29,8 +29,8 @@ async def update_single_task(id: int, data: TaskIn):
     return await database.fetch_one(task.select().where(task.c.id == id))
 
 
-@router.delete("/task/{id}/")
-async def delete_single_task(id: int):
-    await database.execute(task.delete().where(task.c.id == id))
+@router.delete("/task/{title}/")
+async def delete_single_task(title: str):
+    await database.execute(task.delete().where(task.c.title == title))
     return
 

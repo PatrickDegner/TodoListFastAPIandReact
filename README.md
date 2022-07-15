@@ -2,7 +2,8 @@
 Small Todolist with FastAPI React and Postgresql
 <br>
 
-![todo](https://user-images.githubusercontent.com/108484798/179267823-ad127d7f-99de-4795-adcb-96ab3edde7a0.gif)
+![todo](https://user-images.githubusercontent.com/108484798/179270949-4772fbeb-6b5f-49fd-bd48-faabdf8e9ae1.gif)
+
 
 # API Backend
 <br>
